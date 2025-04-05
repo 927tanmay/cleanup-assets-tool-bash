@@ -1,6 +1,8 @@
 # cleanup-assets-tool-bash
 Bash script to find and delete unused images from your assets folder.
+ 
+example -> ./cleanup-assets.sh src/assets src
 
-usage -> ./cleanup-assets.sh <assets-dir> <search-dir>
+```bash
+npx clean-unused-assets <assets-dir> <search-dir>
 
- example -> ./cleanup-assets.sh src/assets src
